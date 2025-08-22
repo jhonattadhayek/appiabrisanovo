@@ -1,0 +1,19 @@
+#pulse {
+  position: relative;
+  animation: pulse 1.5s infinite;
+}
+#pulse:hover {
+  animation: none;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.9);
+  }
+  70% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.9);
+  }
+}

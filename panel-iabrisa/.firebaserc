@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "stakbroker"
+  },
+  "targets": {
+    "stakbroker": {
+      "hosting": {
+        "panel-stakbroker": [
+          "panel-stakbroker"
+        ]
+      }
+    }
+  }
+}

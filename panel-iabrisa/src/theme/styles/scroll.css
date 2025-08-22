@@ -1,0 +1,25 @@
+::-webkit-scrollbar {
+  width: 10px !important;
+}
+
+::-webkit-scrollbar-thumb {
+  height: 56px !important;
+  background: hsla(0, 0%, 53.3%, 0.4) !important;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background-clip: padding-box;
+  border: 2px solid transparent;
+  background-color: var(--scrollbar-thin-thumb);
+  min-height: 40px;
+}
+
+::-webkit-scrollbar-track {
+  border-color: var(--scrollbar-thin-track);
+  background-color: var(--scrollbar-thin-track);
+  border: 2px solid var(--scrollbar-thin-track);
+}

@@ -1,0 +1,23 @@
+export const currencyFlags = {
+  eur: '/static/coins/eu.svg',
+  usd: '/static/coins/us.svg',
+  jpy: '/static/coins/jp.svg',
+  gbp: '/static/coins/gb.svg',
+  us: '/static/coins/us.svg',
+  aud: '/static/coins/au.svg',
+  nzd: '/static/coins/nz.svg',
+  cad: '/static/coins/ca.svg',
+  xau: '/static/coins/gold.svg',
+  chf: '/static/coins/ch.svg',
+  btc: '/static/coins/btv.png',
+  zar: '/static/coins/za.svg',
+  sgd: '/static/coins/sg.svg',
+  try: '/static/coins/tr.svg',
+  hkd: '/static/coins/hk.svg',
+  sek: '/static/coins/se.svg',
+  nok: '/static/coins/no.svg',
+  pln: '/static/coins/pl.svg',
+  cny: '/static/coins/cn.svg',
+  dkk: '/static/coins/dk.svg',
+  inr: '/static/coins/in.svg'
+};

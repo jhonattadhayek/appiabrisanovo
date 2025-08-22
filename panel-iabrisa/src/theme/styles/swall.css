@@ -1,0 +1,25 @@
+.swal2-container {
+  z-index: 20000 !important;
+  font-family: 'Outfit' !important;
+}
+
+.swal2-html-container {
+  font-family: Open Sans, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol' !important;
+}
+
+.swal2-confirm,
+.swal2-cancel {
+  font-family: Open Sans, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol' !important;
+}
+
+.swal2-actions {
+  flex-direction: row-reverse !important;
+}
+
+.swal2-cancel {
+  border: 1px solid #e5eaf2 !important;
+  background-color: #fff !important;
+  color: #474747 !important;
+}

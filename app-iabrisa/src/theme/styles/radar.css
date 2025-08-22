@@ -1,0 +1,43 @@
+#circle1,
+#circle2 {
+  position: absolute;
+  border: 1px solid #ffaa0080;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background-color: #ffaa00;
+  margin-top: -10px;
+}
+
+#circle1 {
+  animation: circ1 3s infinite;
+}
+
+#circle2 {
+  animation: circ2 3s infinite;
+  animation-delay: 1.5s;
+}
+
+@keyframes circ1 {
+  from {
+    transform: scale(1);
+    opacity: 0.5;
+  }
+
+  to {
+    transform: scale(5);
+    opacity: 0;
+  }
+}
+
+@keyframes circ2 {
+  from {
+    transform: scale(1);
+    opacity: 0.5;
+  }
+
+  to {
+    transform: scale(5);
+    opacity: 0;
+  }
+}
